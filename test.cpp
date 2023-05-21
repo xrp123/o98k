@@ -18,7 +18,7 @@ void jiao(int *A,int *B,int length1,int length2)
 		}
 	}
 	if(c==0)
-		cout<<"Á½¸öÊý×éÃ»ÓÐ½»¼¯";
+		cout<<"ä¸¤ä¸ªæ•°ç»„æ²¡æœ‰äº¤é›†";
 	cout<<endl;
 }
 void bing(int *A,int *B,int length1,int length2)
@@ -77,18 +77,18 @@ void bing(int *A,int *B,int length1,int length2)
 void main()
 {
 	int length1,length2;
-	cout<<"ÇëÊäÈëÁ½¸öÊý×éµÄ³¤¶È"<<endl;
+	cout<<"è¯·è¾“å…¥ä¸¤ä¸ªæ•°ç»„çš„é•¿åº¦"<<endl;
 	cin>>length1>>length2;
 	int *p1=new int[length1];
 	int *p2=new int[length2];
-	cout<<"ÇëÊäÈëµÚÒ»Êý×éµÄÊýÖµ"<<endl;
+	cout<<"è¯·è¾“å…¥ç¬¬ä¸€æ•°ç»„çš„æ•°å€¼"<<endl;
 	for(int i=0;i<length1;i++)
 		cin>>p1[i];
-	cout<<"ÇëÊäÈëµÚ¶þÊý×éµÄÊýÖµ"<<endl;
+	cout<<"è¯·è¾“å…¥ç¬¬äºŒæ•°ç»„çš„æ•°å€¼"<<endl;
 	for(int i=0;i<length2;i++)
 		cin>>p2[i];
-	cout<<"Á½¸öÊý×éµÄ½»¼¯Îª"<<endl;
+	cout<<"ä¸¤ä¸ªæ•°ç»„çš„äº¤é›†ä¸º"<<endl;
 	jiao(p1,p2,length1,length2);
-	cout<<"Á½¸öÊý×éµÄ²¢¼¯Îª"<<endl;
+	cout<<"ä¸¤ä¸ªæ•°ç»„çš„å¹¶é›†ä¸º"<<endl;
 	bing(p1,p2,length1,length2);
 }
